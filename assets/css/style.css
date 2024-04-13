@@ -1,3 +1,10 @@
+/* Google fonts */
+@font-face {
+    font-family: Merienda, Sacramento;
+    src: 'assets/css/Merienda/Merienda-VariableFont_wght.ttf';
+    src: url(assets/css/Sacramento.zip);
+}
+
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
