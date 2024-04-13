@@ -1,9 +1,5 @@
-/* Google fonts */
-@font-face {
-    font-family: Merienda, Sacramento;
-    src: 'assets/css/Merienda/Merienda-VariableFont_wght.ttf';
-    src: url(assets/css/Sacramento.zip);
-}
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -19,6 +15,7 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #3a3a3a;
+    font-family: 'Merienda', serif;
 }
 
 /* Header */
