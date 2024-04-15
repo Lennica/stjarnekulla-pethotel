@@ -101,6 +101,17 @@ main {
     color: #3a3a3a;
 
 }
+
+p {
+    font-size: 75%;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
