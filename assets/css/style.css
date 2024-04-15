@@ -20,7 +20,7 @@ body {
 
 /* Header */
 header {
-    background-color: #ffffff;
+    background-color: #DBCCCD;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -57,7 +57,7 @@ h1 {
 nav {
     position: absolute;
     left: 0;
-    background-color: #ffffff;
+    background-color: #DBCCCD;
     width: 100%;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
@@ -83,6 +83,7 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 79px;
+    color: lightgoldenrodyellow;
 }
 
 /* putte section */
@@ -92,7 +93,14 @@ main {
     background: url("../images/Puttes.jpg") no-repeat center center/cover;
 }
 
+#text {
+
+}
+
 /* Footer */
+footer {
+    background-color: #DBCCCD;
+    }
 #social {
     text-align: center;
     padding: 20px 0;
@@ -142,6 +150,7 @@ a {
         font-size: 280%;
         line-height: 75px;
         margin: 0 0,5rem;
+        letter-spacing: 2px;
     }
 }
 
