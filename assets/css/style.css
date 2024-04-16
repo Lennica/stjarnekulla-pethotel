@@ -26,7 +26,7 @@ h3 {
 
 /* Header */
 header {
-    background-color: #DBCCCD;
+    background-color: #F9E5E6;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -63,7 +63,7 @@ h1 {
 nav {
     position: absolute;
     left: 0;
-    background-color: #DBCCCD;
+    background-color: #F9E5E6;
     width: 100%;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
@@ -100,7 +100,7 @@ main {
 }
 
 #text {
-    background-color: rgba(249, 229, 230, 0.5);
+    background-color: #DBCCCD;
     font-size: 130%;
     color: #252525;
     
@@ -112,9 +112,16 @@ main {
     text-align: center;
     }
 
+/* mini section */
+#mini {
+    height: 600px;
+    width: 100%;
+    background: url("../images/nos.jpg") no-repeat center center/cover;
+}
+
 /* Footer */
 footer {
-    background-color: #DBCCCD;
+    background-color: #F9E5E6;
     }
 #social {
     text-align: center;
