@@ -111,18 +111,18 @@ main {
     bottom: 30px;
     width: 100%;
     min-height: 100px;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: center;
     }
 
-/* mini section */
-#mini {
+/* rabbit section */
+#rabbit {
     height: 600px;
     width: 100%;
-    background: url("../images/nos.jpg") no-repeat center center/cover;
+    background: url("../images/rabbit.jpg") no-repeat center center/cover;
 }
 
 /* Footer */
