@@ -20,7 +20,7 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #808080;
-    font-family: 'Cinzel Decorative' serif;
+    font-family: 'Merienda' serif;
 }
 
 h3 {
@@ -96,33 +96,8 @@ main {
     
 }
 
-/* putte section */
-#putte {
-    height: 600px;
-    width: 100%;
-    background: url("../images/Puttes.jpg") no-repeat center center/cover;
-}
-
-#text {
-    background-color: #DBCCCD;
-    font-size: 130%;
-    color: #252525;
-    
-    bottom: 30px;
-    width: 100%;
-    min-height: 100px;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
-    text-align: center;
-    }
-
-/* mini section */
-#mini {
-    height: 600px;
-    width: 100%;
-    background: url("../images/nos.jpg") no-repeat center center/cover;
+#kanin {
+    background-color: DBCCCD;
 }
 
 /* Footer */
