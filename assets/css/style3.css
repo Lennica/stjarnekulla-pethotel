@@ -95,7 +95,21 @@ main {
     margin-top: 79px;
 }
     
-
+#text {
+    background-color: #DBCCCD;
+    font-size: 130%;
+    color: #252525;
+    
+    bottom: 30px;
+    width: 100%;
+    min-height: 100px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    }
+    
 /* Footer */
 footer {
     background-color: #F9E5E6;
@@ -116,7 +130,7 @@ footer {
 }
 
 p {
-    font-size: 75%;
+    font-size: 200%;
     text-align: center;
 }
 
@@ -158,8 +172,6 @@ a {
     }
 
     
-
-
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
