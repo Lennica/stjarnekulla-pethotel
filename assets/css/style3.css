@@ -94,6 +94,14 @@ main {
     flex: 1 0 auto;
     margin-top: 79px;
 }
+
+img {
+    margin-left: 40px;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
     
 #text {
     background-color: #DBCCCD;
@@ -170,7 +178,7 @@ a {
         width: 300px;
         right: 50px;
     }
-
+}
     
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
