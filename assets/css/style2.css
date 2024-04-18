@@ -21,6 +21,7 @@ body {
     /* Generic project styles */
     color: #808080;
     font-family: 'Merienda' serif;
+    
 }
 
 h3 {
@@ -107,12 +108,16 @@ main {
     border-radius: 50px;
 }
 
-    img {
-      border-radius: 50%;
-      text-align: center;
-      padding: 20px 0;
-      display: flex;
-      justify-content: space-evenly;
+img {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    left: auto;
+    margin-right: auto;
+    padding: 20%;
+    padding: 20px 0;
+    padding-left: 30;
+
 }
 
 #kanin {

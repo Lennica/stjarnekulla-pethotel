@@ -16,8 +16,25 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
     <style>
-        img {
-          border-radius: 70%;
+        body  {
+  background-image: url("assets/images/Mini.jpg") no-repeat center center/cover;
+}
+img {
+    box-sizing: border-box;
+    border-radius: 8px;
+    left: 20px;
+}     
+        .column {
+          float: left;
+          width: 33.33%;
+          padding: 5px;
+        }
+        
+        /* Clearfix (clear floats) */
+        .row::after {
+          content: "";
+          clear: both;
+          display: table;
         }
         </style>
     </head>
@@ -41,9 +58,9 @@
     <main>
         <body style="background-color: #dbcccd;">
             <div id="text">
-                <br>	
-<br>
-<br>	
+            <br>	
+            <br>
+            <br>	
 	<p><strong>Pricing:</strong><br>
 	Short Term Boarding for cats and bunnies:<br>
 	<i><strong>PRICE: 20 Euro per night</strong></i>
@@ -61,20 +78,23 @@
 	<p>We require proof of vaccination against the basic airborne<br>
         and upper respiratory diseases within the previous 12 months.<br>
         Frontline application and deworming is needed for external<br>
-        and internal parasites prior to boarding.</p>
+        and internal parasites prior to boarding.
             </div> 
             <section id="kaninhus"></section> 
             <br>
             <br>
             <br>
-            <video width="215" height="250" controls> 
-            <source src="assets/images/Kaniner.mp4" type="video/mp4">
-            </video>
-            <img src="assets/images/kaninhus.JPG" width="265" height="265">
-            <video width="215" height="250" controls> 	
-            <source src="assets/images/Gurra.mp4" type="video/mp4">
-            </video>
-                <br>
+            <section id="gallery">
+                <div id="photos">
+                    <img src="assets/images/Mini.jpg" alt="en kanin" width="375" height="350">
+                </div>
+            </section>
+            
+            
+            
+            </body>
+        </p>
+            <br>
                 <br>
         </main>
     
@@ -104,9 +124,7 @@
                 <br>
                 <br>
                 &copy; 2024 Design by Lennica. All rights reserved.</p><br>
-           
-    </footer>
-
+               </footer>
     <!-- Fontawsome kit -->
     <script src="https://kit.fontawesome.com/df12e2844e.js" crossorigin="anonymous"></script>
 
