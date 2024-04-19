@@ -92,33 +92,52 @@ nav {
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 79px;
-    
+    margin-top: 47px;
+    display: flex;
+    flex-direction: column;
 }
 
-img {
-    margin-left: 40px;
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: center;
+    /* Form */
+#signup {
+    background-image: url("assets/images/BellaoMini.jpg");
+    background-size: cover;
+    background-position: 75%;
+    padding: 20% 10% 0 10%;
+    flex-grow: 1;
 }
-    
-#text {
-    background-color: #DBCCCD;
-    font-size: 130%;
-    color: #252525;
-    
-    bottom: 30px;
-    width: 100%;
-    min-height: 100px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: center;
-    }
-    
+
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
+#signup-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa; 
+    width: 300%;
+    height: 35px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;   
+    padding: 0 5px;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #454b1b;
+    color: #fafafa;
+}
+
+
     body, html {
         height: 100%;
       }
@@ -153,7 +172,7 @@ img {
       
       /* Full-width input fields */
         input[type=text], input[type=password] {
-        width: 100%;
+        width: 200%;
         padding: 15px;
         margin: 5px 0 22px 0;
         border: none;
@@ -185,6 +204,30 @@ img {
         width: 100%;
         background: url("images/BellaoMini.JPG") no-repeat center center/cover;
       }
+
+      img {
+        margin-left: 40px;
+        text-align: center;
+        padding: 20px 0;
+        display: flex;
+        justify-content: center;
+    }
+        
+    #text {
+        background-color: #DBCCCD;
+        font-size: 130%;
+        color: #252525;
+        
+        bottom: 30px;
+        width: 100%;
+        min-height: 100px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+        }
+        
 
 /* Footer */
 footer {
@@ -241,12 +284,36 @@ a {
         margin: 0 0,5rem;
         letter-spacing: 2px;
     }
+
+    /* Form */
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+
+    #signup-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        top: 150px;
+    }
+
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
+    
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
+    }
+}
+    
     /* Putte */
     text {
         width: 300px;
         right: 50px;
     }
-}
+
     
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
@@ -255,3 +322,24 @@ a {
     }
 }
 
+/* Form */
+#signup {
+    background-position: center;
+    position: relative;
+}
+
+#signup-form {
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    top: 150px;
+}
+
+.text-input:hover {
+    border-color: #f16c6b;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #454b1b;
+}
