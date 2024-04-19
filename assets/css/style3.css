@@ -120,17 +120,17 @@ main {
 .text-input {
     background: transparent;
     color: #fafafa; 
-    width: 300%;
+    width: 500%;
     height: 35px;
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
-    border-radius: 2px;   
+    border-radius: 10px;
     padding: 0 5px;
 }
 
-.join-button {
+.send-button {
     margin-top: 20px;
-    border-radius: 2px;
+    border-radius: 10px;
     padding: 15px 32px;
     font-size: 100%;
     background-color: #454b1b;
@@ -145,64 +145,46 @@ main {
       * {
         box-sizing: border-box;
       }
-      
-      .bg-img {
-        /* The image used */
-        background-image: url("assets/images/Mini.jpg");
-      
-        /* Control the height of the image */
-        min-height: 380px;
-      
-        /* Center and scale the image nicely */
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-      }
-      
+            
       /* Add styles to the form container */
       .container {
         position: absolute;
         right: 0;
         margin: 20px;
-        max-width: 300px;
+        max-width: 600%;
         padding: 16px;
         background-color: white;
       }
       
       /* Full-width input fields */
-        input[type=text], input[type=password] {
-        width: 200%;
-        padding: 15px;
-        margin: 5px 0 22px 0;
-        border: none;
+        input[type=text], input[type=email] {
+        width: 500%;
+        padding: 20px 20px 20px 30px:
+        margin: 15px 15px 15px 25px;
+        box-sizing: border-box;
+        border-radius: 15px;
         background: #f1f1f1;
       }
       
-      input[type=text]:focus, input[type=password]:focus {
+      input[type=text]:focus, input[type=email]:focus {
         background-color: #ddd;
+        border-radius: 15px;
         outline: none;
       }
       
-      /* Set a style for the submit button */
+      /* Set a style for the send button */
       .btn {
-        background-color: #04AA6D;
-        color: white;
+        background-color: #808080;
+        color: #3a3a3a;
         padding: 16px 20px;
-        border: none;
+        border: #252525;
         cursor: pointer;
-        width: 100%;
+        width: 500%;
         opacity: 0.9;
       }
       
       .btn:hover {
         opacity: 1;
-      }
-
-      kaniner {
-        height: 600px;
-        width: 100%;
-        background: url("images/BellaoMini.JPG") no-repeat center center/cover;
       }
 
       img {
@@ -217,7 +199,6 @@ main {
         background-color: #DBCCCD;
         font-size: 130%;
         color: #252525;
-        
         bottom: 30px;
         width: 100%;
         min-height: 100px;
@@ -286,25 +267,25 @@ a {
     }
 
     /* Form */
-    #signup {
+    #contact {
         background-position: center;
         position: relative;
     }
 
-    #signup-form {
-        max-width: 400px;
+    #contact-form {
+        max-width: 200px;
         position: absolute;
         left: 10%;
         top: 150px;
     }
 
     .text-input:hover {
-        border-color: #f16c6b;
+        border-color: #F9E5E6;
     }
     
-    .join-button:hover {
+    .send-button:hover {
         background-color: #fafafa;
-        color: #454b1b;
+        color: #3a3a3a;
     }
 }
     
@@ -323,12 +304,12 @@ a {
 }
 
 /* Form */
-#signup {
+#contact {
     background-position: center;
     position: relative;
 }
 
-#signup-form {
+#contact-form {
     max-width: 400px;
     position: absolute;
     left: 10%;
@@ -336,10 +317,10 @@ a {
 }
 
 .text-input:hover {
-    border-color: #f16c6b;
+    border-color: #F9E5E6;
 }
 
-.join-button:hover {
-    background-color: #fafafa;
-    color: #454b1b;
+.send-button:hover {
+    background-color: #F9E5E6;
+    color: #3a3a3a;
 }
